@@ -1,0 +1,99 @@
+################ !!!! Git Ignore Config File !!! ################
+# NOTE: This file must be put under root dir of git project!
+#################################################################
+# project ignore files
+.ropeproject/
+json_files/
+*.bac
+*un~
+*bac/
+*.egg
+*.swo
+dbs/
+my_data/
+*.egg-info/
+eggs/
+giphy/
+items/
+logs/
+temp/*
+       data/log*
+       data/phoenix_log/*
+       twistd.pid
+
+# common ignore files
+*.swp
+*.tmp
+*.bak
+.svn/
+
+# Mac files
+.DS_Store
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# general output files
+bin/
+gen/
+out/
+project.egg-info/
+
+# C/C++ specific files
+*.o
+
+# Java/Android specific files
+*.class
+*.apk
+*.ap_
+*.dex
+
+# Python specific files
+*.pyc
+Dock.egg-info/
+dist/
+config.yaml
+
+# Eclipse specific files
+.settings/
+
+# Intellij specific files
+*.iml
+*.ipr
+*.iws
+
+# Xcode specific files
+build/
+DerivedData
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+*.moved-aside
+
+# IDEA specific files
+.idea/
+
+# Other files
+data/res*.yaml
+data/*.pem
+data/*.key
+local_test/*
+
+tmp/
+env/
+toolkit/news-web-tester/json/**
+npm-debug.log
+
+.ipynb_checkpoints
+Untitled.ipynb
+.coverage
+cover/
+
