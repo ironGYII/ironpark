@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: ironpark
+Version: 0.0.0
+Summary: Encapsulation spark base k8s
+Home-page: UNKNOWN
+Author: ironGYI
+Author-email: ironGYI@163.com
+License: Proprietary
+Description: recsys
+Platform: any
