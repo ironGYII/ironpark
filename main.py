@@ -17,7 +17,8 @@ def main(path, name):
 
     module = importlib.import_module(path)
 
-    getattr(module, name)(spark)
+    task = getattr(module, name)(spark)
+    task.run()
     spark.stop()
 
 
